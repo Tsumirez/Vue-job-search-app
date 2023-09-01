@@ -1,16 +1,5 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <template>
-  <div class="wrapper">
-    <h1>purple header</h1>
-    <HelloWorld msg="You did it!" />
-  </div>
+  <h1>Zefirez Vue App</h1>
 </template>
-
-<style scoped>
-h1 {
-  color: purple;
-}
-</style>
