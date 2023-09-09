@@ -1,10 +1,10 @@
 <template>
   <header class="w-full text-sm">
-    <div class="fixed left-0 top-0 h-16 w-full bg-white">
+    <div class="bg-white fixed left-0 top-0 h-16 w-full">
       <div
-        class="border-brand-gray-1 flex h-full flex-nowrap border-b border-solid px-8"
+        class="flex h-full flex-nowrap border-b border-solid border-brand-gray-1 px-8"
       >
-        <a href="/" class="flex h-full items-center text-xl">Zefirez Design</a>
+        <a href="/" class="flex h-full items-center text-xl">{{ title }}</a>
       </div>
     </div>
   </header>
@@ -13,5 +13,10 @@
 <script>
 export default {
   name: "MainNav",
+  data() {
+    return {
+      title: "Zef Design",
+    };
+  },
 };
 </script>
